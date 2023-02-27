@@ -395,8 +395,6 @@ section.sobre {
 
 .conteudo p {
     font-size: 17px;
-    color: rgb(63, 63, 63);
-    font-weight: 600;
 }
 
 .conquistas {
@@ -727,8 +725,7 @@ footer {
 
 .box h2 {
     font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .box .content {
@@ -744,6 +741,7 @@ footer {
     background-color: #8a0000;
     top: -10px;
 }
+
 
 .box .content:before {
     position: absolute;
@@ -804,7 +802,6 @@ footer {
 }
 
 .centro .content .text {
-
     font-weight: 500;
     padding-left: 10px;
     color: rgb(197, 197, 197);
@@ -1038,7 +1035,8 @@ section.forms {
     .logo {
         width: 200px;
         font-size: 12px;
-        padding: 10 10 10 10;
+        padding: 10px 10px 10px 10px;
+        height: 115px;
     }
 
     .logo img {
@@ -1184,6 +1182,7 @@ section.forms {
 
     .titulo1 h2 {
         font-size: 100px;
+        text-shadow: rgb(202, 202, 202) 3px 3px 4px;
     }
 
     body.relative {
@@ -1234,7 +1233,7 @@ section.forms {
     }
 
     .conteudo p {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .chamada-sobre {
@@ -1243,6 +1242,7 @@ section.forms {
 
     .chamada-sobre h2 {
         font-size: 80px;
+        text-shadow: rgb(202, 202, 202) 3px 3px 4px;
     }
 
     .conteudo-sobre p {
@@ -1297,7 +1297,7 @@ section.forms {
     }
 
     .left .content p {
-        font-size: 13px;
+        font-size: 14px !important;
     }
 
     .box .content {
@@ -1326,18 +1326,13 @@ section.forms {
         height: 50vh;
         object-fit: cover;
         image-resolution: 100%;
-        background-position: top;
+        background-position: 20px 50px;
         -moz-background-size: cover;
         -o-background-size: contain;
-        background-size: 100% 50%;
+        background-size: 950px 950px;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        margin-top: 150px;
-        display: flex;
-        z-index: 4;
     }
-
-
 
     .main_cta {
         flex-wrap: wrap;
@@ -1346,6 +1341,11 @@ section.forms {
     .main_cta h2 {
         margin: 5px 0;
         font-size: 100px;
+        /* text-decoration: none; */
+        text-rendering: optimizeSpeed;
+        text-shadow: none;
+        border: solid 10px;
+        border-color: #530101;
     }
 
     .main_cta p {
@@ -1406,7 +1406,7 @@ section.forms {
         src: url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
         unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
-    
+
     @font-face {
         font-family: 'Poppins';
         font-style: normal;
@@ -1414,5 +1414,17 @@ section.forms {
         font-display: swap;
         src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2) format('woff2');
         unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    .conquista-single h2 {
+        color: #00d8cd;
+        text-shadow: none;
+        font-weight: 600;
+        font-family: 'Bebas Neue';
+    }
+
+    .centro .content .text {
+        font-size: 14px !important;
+        color: '#fff';
     }
 }
