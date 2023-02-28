@@ -366,7 +366,7 @@ section.sobre {
     animation: aparecer 5s;
     border-bottom: 1.5px solid #530101;
     content: '';
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     text-shadow: rgb(202, 202, 202) 0.1em 0.1em 0.2em;
 }
 
@@ -502,7 +502,7 @@ section.projeto {
     margin: 0px 140px;
     border-bottom: 1.5px solid #530101;
     content: '';
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     text-shadow: rgb(202, 202, 202) 0.1em 0.1em 0.2em;
 }
 
@@ -585,7 +585,7 @@ section.projetos {
     text-align: center;
     border-bottom: 1.5px solid #530101;
     content: '';
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     text-transform: uppercase;
     text-shadow: rgb(202, 202, 202) 0.1em 0.1em 0.2em;
 }
@@ -1104,7 +1104,13 @@ section.forms {
     }
 
     .titulo h2 {
-        font-size: 80px;
+        color: #530101;
+        font-size: 80px !important;
+        text-align: center;
+        border-bottom: 1.5px solid #530101;
+        content: '';
+        font-family: 'Bebas Neue' !important;
+        text-shadow: none !important;
     }
 
     section ul li {
@@ -1181,8 +1187,9 @@ section.forms {
     }
 
     .titulo1 h2 {
-        font-size: 100px;
-        text-shadow: rgb(202, 202, 202) 3px 3px 4px;
+        font-size: 100px !important;
+        font-family: 'Bebas Neue' !important;
+        text-shadow: rgb(202, 202, 202) 3px 3px 4px !important;
     }
 
     body.relative {
@@ -1227,13 +1234,18 @@ section.forms {
         flex-wrap: wrap;
     }
 
+    .backgroundImage {
+        height: 680px;
+        margin-left: 140px;
+    }
+
     .conteudo {
         height: auto;
         width: auto;
     }
 
     .conteudo p {
-        font-size: 14px;
+        font-size: 15px !important;
     }
 
     .chamada-sobre {
@@ -1242,7 +1254,7 @@ section.forms {
 
     .chamada-sobre h2 {
         font-size: 80px;
-        text-shadow: rgb(202, 202, 202) 3px 3px 4px;
+        text-shadow: none !important;
     }
 
     .conteudo-sobre p {
@@ -1341,11 +1353,11 @@ section.forms {
     .main_cta h2 {
         margin: 5px 0;
         font-size: 100px;
-        /* text-decoration: none; */
-        text-rendering: optimizeSpeed;
-        text-shadow: none;
+        text-shadow: none !important;
+        text-decoration: none !important;
         border: solid 10px;
         border-color: #530101;
+        background-color: #530101;
     }
 
     .main_cta p {
