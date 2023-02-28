@@ -1441,7 +1441,7 @@ section.forms {
     }
 }
 
-@media screen and (max-width: 400px) and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .diferencial-single {
         width: 100%;
         margin-bottom: 20px;
